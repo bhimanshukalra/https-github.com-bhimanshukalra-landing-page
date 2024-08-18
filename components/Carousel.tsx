@@ -60,7 +60,7 @@ export function CarouselView() {
   }, [isAnimating, duration, startAnimation, api, currentIndex]);
 
   return (
-    <div className="flex flex-row justify-around mt-10">
+    <div className="flex flex-row justify-between mt-10">
       <span className="text-4xl font-semibold">
         <span className="text-yellow-400">The Scribe Co.</span> can help you
         <br />
