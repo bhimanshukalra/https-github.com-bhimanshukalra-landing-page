@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import { Services } from "@/components/Services";
 import Grid from "@/components/ui/Grid";
+import useWindowDimensions from "@/hooks/useWindowDimension";
 
 export default function Home() {
   return (

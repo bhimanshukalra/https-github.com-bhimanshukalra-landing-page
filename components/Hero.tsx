@@ -3,9 +3,21 @@
 import React from "react";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import { MacbookScrollView } from "./macbookScrollView";
+import useWindowDimensions from "@/hooks/useWindowDimension";
 
 const Hero = () => {
-  if (screen.width < 800) {
+  const { width } = useWindowDimensions();
+  // if (width === undefined) {
+  //   return null;
+  // }
+  if (
+    // global &&
+    // global.window &&
+    // global.window.screen &&
+    // global.window.screen.width < 800
+    width !== undefined &&
+    width < 800
+  ) {
     return (
       <div className="py-20">
         <TextGenerateEffect
