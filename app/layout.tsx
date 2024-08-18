@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "The Scribe",
-  description: "Bhimanshu Kalra, full stack developer's portfolio",
+  description: "The Scribe Co. is your content development engine.",
 };
 
 export default function RootLayout({
