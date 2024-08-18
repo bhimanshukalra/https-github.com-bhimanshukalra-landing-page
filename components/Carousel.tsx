@@ -81,7 +81,7 @@ export function CarouselView() {
                   <CardContent className="flex items-center justify-center p-6 flex-col h-60">
                     <Image
                       src={`/${imgSrcs[index]}.webp`}
-                      alt={imgSrcs[index]}
+                      alt={labels[index]}
                       width={200}
                       height={100}
                     />

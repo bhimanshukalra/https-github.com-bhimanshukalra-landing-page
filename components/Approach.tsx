@@ -122,7 +122,11 @@ const Card = ({
 const AceternityIcon = ({ order }: { order: string }) => {
   return (
     <div>
-      <button className="relative inline-flex overflow-hidden rounded-full p-[1px]">
+      <button
+        className="relative inline-flex overflow-hidden rounded-full p-[1px]"
+        name={order}
+        aria-label={order}
+      >
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
          bg-[conic-gradient(from_90deg_at_50%_50%,#FACC15_0%,#fde047_50%,#fef08a_100%)]"
