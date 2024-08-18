@@ -73,7 +73,7 @@ const Card = ({
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       className="border border-black/[0.2] group/canvas-card flex items-center justify-center
-       dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl bg-yellow-50"
+       dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative lg:h-[35rem] rounded-3xl bg-pink-700"
     >
       <Icon className="absolute h-10 w-10 -top-3 -left-3 dark:text-white text-black opacity-30" />
       <Icon className="absolute h-10 w-10 -bottom-3 -left-3 dark:text-white text-black opacity-30" />
@@ -129,11 +129,11 @@ const AceternityIcon = ({ order }: { order: string }) => {
       >
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
-         bg-[conic-gradient(from_90deg_at_50%_50%,#FACC15_0%,#fde047_50%,#fef08a_100%)]"
+         bg-[conic-gradient(from_90deg_at_50%_50%,#9d174d_0%,#be185d_50%,#db2777_100%)]"
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
-        justify-center rounded-full bg-yellow-100/50 text-pink-950 px-5 py-2 backdrop-blur-3xl font-bold text-2xl"
+        justify-center rounded-full bg-pink-800 text-white px-5 py-2 backdrop-blur-3xl font-bold text-2xl"
         >
           {order}
         </span>
